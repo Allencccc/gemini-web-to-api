@@ -1,7 +1,7 @@
 services:
-  app:
+  gemini-api:
     build: .
-    container_name: app
+    container_name: gemini-web-to-api
     ports:
       - "4981:4981"
     env_file:
